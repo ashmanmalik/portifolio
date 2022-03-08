@@ -42,7 +42,7 @@
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="navbar-brand-wrapper d-flex justify-content-center">
         <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">  
-          <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo.png" alt="logo"/></a>
+          <a class="navbar-brand brand-logo" href="index.html"><p> BasiqPay </p></a>
           <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo.png" alt="logo"/></a>
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
             <span class="mdi mdi-sort-variant"></span>
@@ -159,7 +159,7 @@
           <li class="nav-item nav-profile dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="profileDropdown">
               <img src="images/faces/face5.jpg" alt="profile"/>
-              <span class="nav-profile-name">Louis Barnett</span>
+              <span class="nav-profile-name">Ashman Malik</span>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
               <a class="dropdown-item">
@@ -192,7 +192,7 @@
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="mdi mdi-circle-outline menu-icon"></i>
-              <span class="menu-title">UI Elements</span>
+              <span class="menu-title">Connections</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
@@ -205,31 +205,32 @@
           <li class="nav-item">
             <a class="nav-link" href="pages/forms/basic_elements.html">
               <i class="mdi mdi-view-headline menu-icon"></i>
-              <span class="menu-title">Form elements</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/charts/chartjs.html">
-              <i class="mdi mdi-chart-pie menu-icon"></i>
-              <span class="menu-title">Charts</span>
+              <span class="menu-title">Accounts</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="pages/tables/basic-table.html">
               <i class="mdi mdi-grid-large menu-icon"></i>
-              <span class="menu-title">Tables</span>
+              <span class="menu-title">Transactions</span>
             </a>
           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="pages/charts/chartjs.html">
+              <i class="mdi mdi-chart-pie menu-icon"></i>
+              <span class="menu-title">Enrich Transactions</span>
+            </a>
+          </li>
+         
           <li class="nav-item">
             <a class="nav-link" href="pages/icons/mdi.html">
               <i class="mdi mdi-emoticon menu-icon"></i>
-              <span class="menu-title">Icons</span>
+              <span class="menu-title">Jobs</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
               <i class="mdi mdi-account menu-icon"></i>
-              <span class="menu-title">User Pages</span>
+              <span class="menu-title">Institutions</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="auth">
@@ -241,6 +242,12 @@
                 <li class="nav-item"> <a class="nav-link" href="pages/samples/lock-screen.html"> Lockscreen </a></li>
               </ul>
             </div>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="documentation/documentation.html">
+              <i class="mdi mdi-file-document-box-outline menu-icon"></i>
+              <span class="menu-title">Statements</span>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="documentation/documentation.html">
@@ -260,7 +267,7 @@
                 <div class="d-flex align-items-end flex-wrap">
                   <div class="me-md-3 me-xl-5">
                     <h2>Welcome back,</h2>
-                    <p class="mb-md-0">Your analytics dashboard template.</p>
+                    <p class="mb-md-0">Your analytics dashboard.</p>
                   </div>
                   <div class="d-flex">
                     <i class="mdi mdi-home text-muted hover-cursor"></i>
@@ -272,13 +279,14 @@
                   <button type="button" class="btn btn-light bg-white btn-icon me-3 d-none d-md-block ">
                     <i class="mdi mdi-download text-muted"></i>
                   </button>
-                  <button type="button" class="btn btn-light bg-white btn-icon me-3 mt-2 mt-xl-0">
+                  <!-- <button type="button" class="btn btn-light bg-white btn-icon me-3 mt-2 mt-xl-0">
                     <i class="mdi mdi-clock-outline text-muted"></i>
                   </button>
                   <button type="button" class="btn btn-light bg-white btn-icon me-3 mt-2 mt-xl-0">
                     <i class="mdi mdi-plus text-muted"></i>
                   </button>
-                  <button class="btn btn-primary mt-2 mt-xl-0">Generate report</button>
+                   -->
+                  <button class="btn btn-primary mt-2 mt-xl-0">Generate Affordability report</button>
                 </div>
               </div>
             </div>
@@ -449,7 +457,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-7 grid-margin stretch-card">
+<!--             <div class="col-md-7 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
                   <p class="card-title">Cash deposits</p>
@@ -458,8 +466,8 @@
                   <canvas id="cash-deposits-chart"></canvas>
                 </div>
               </div>
-            </div>
-            <div class="col-md-5 grid-margin stretch-card">
+            </div> -->
+            <!-- <div class="col-md-5 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
                   <p class="card-title">Total sales</p>
@@ -470,23 +478,22 @@
                 </div>
                 <canvas id="total-sales-chart"></canvas>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="row">
             <div class="col-md-12 stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <p class="card-title">Recent Purchases</p>
+                  <p class="card-title"> Accounts </p>
                   <div class="table-responsive">
                     <table id="recent-purchases-listing" class="table">
                       <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Status report</th>
-                            <th>Office</th>
-                            <th>Price</th>
-                            <th>Date</th>
-                            <th>Gross amount</th>
+                            <th>Account Name</th>
+                            <th>Account No</th>
+                            <th>Account Type</th>
+                            <th>Available</th>
+                            <th>Balance</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -496,7 +503,6 @@
                             <td>Catalinaborough</td>
                             <td>$790</td>
                             <td>06 Jan 2018</td>
-                            <td>$2274253</td>
                         </tr>
                         <tr>
                             <td>Alvin Fisher</td>
@@ -504,7 +510,6 @@
                             <td>East Mayra</td>
                             <td>$23230</td>
                             <td>18 Jul 2018</td>
-                            <td>$83127</td>
                         </tr>
                         <tr>
                             <td>Emily Cunningham</td>
@@ -512,7 +517,6 @@
                             <td>Makennaton</td>
                             <td>$939</td>
                             <td>16 Jul 2018</td>
-                            <td>$29177</td>
                         </tr>
                         <tr>
                             <td>Minnie Farmer</td>
@@ -520,7 +524,6 @@
                             <td>Agustinaborough</td>
                             <td>$30</td>
                             <td>30 Apr 2018</td>
-                            <td>$44617</td>
                         </tr>
                         <tr>
                             <td>Betty Hunt</td>
@@ -528,7 +531,6 @@
                             <td>Lake Sandrafort</td>
                             <td>$571</td>
                             <td>25 Jun 2018</td>
-                            <td>$78952</td>
                         </tr>
                         <tr>
                             <td>Myrtie Lambert</td>
@@ -536,7 +538,6 @@
                             <td>Cassinbury</td>
                             <td>$36</td>
                             <td>05 Nov 2018</td>
-                            <td>$36422</td>
                         </tr>
                         <tr>
                             <td>Jacob Kennedy</td>
@@ -544,15 +545,6 @@
                             <td>Cletaborough</td>
                             <td>$314</td>
                             <td>12 Jul 2018</td>
-                            <td>$34167</td>
-                        </tr>
-                        <tr>
-                            <td>Ernest Wade</td>
-                            <td>Levelled up</td>
-                            <td>West Fidelmouth</td>
-                            <td>$484</td>
-                            <td>08 Sep 2018</td>
-                            <td>$50862</td>
                         </tr>
                       </tbody>
                     </table>
@@ -566,8 +558,7 @@
         <!-- partial:partials/_footer.html -->
         <footer class="footer">
         <div class="d-sm-flex justify-content-center justify-content-sm-between">
-          <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © <a href="https://www.bootstrapdash.com/" target="_blank">bootstrapdash.com </a>2021</span>
-          <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Only the best <a href="https://www.bootstrapdash.com/" target="_blank"> Bootstrap dashboard  </a> templates</span>
+          <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © All rights reserved by Ashman Malik 2022</span>
         </div>
         </footer>
         <!-- partial -->
