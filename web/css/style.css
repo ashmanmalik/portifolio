@@ -22273,7 +22273,8 @@ dl li {
 
 .auth .register-half-bg {
   background: url("../images/graphics.png");
-  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 135px; 
 }
 
 .auth.lock-full-bg {
